@@ -1,0 +1,24 @@
+package: github.com/dnvrc/telepathy
+homepage: https://github.com/dnvrc/telepathy
+license: MIT
+owners:
+- name: Alex Manelis
+  email: alex@dnvr.capital
+  homepage: https://dnvr.capital
+ignore:
+- appengine
+excludeDirs:
+- node_modules
+import:
+- package: github.com/sirupsen/logrus
+- package: github.com/spf13/viper
+# - package: github.com/Masterminds/vcs
+#   version: ^1.2.0
+#   repo:    git@github.com:Masterminds/vcs
+#   vcs:     git
+# - package: github.com/codegangsta/cli
+#   version: f89effe81c1ece9c5b0fda359ebd9cf65f169a51
+# - package: github.com/Masterminds/semver
+#   version: ^1.0.0
+testImport:
+- package: github.com/arschles/assert
